@@ -29,7 +29,7 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <a href="#home" className="group flex items-center gap-2.5" onClick={handleLinkClick}>
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/10 ring-1 ring-accent/30 transition-all group-hover:bg-accent/20">
-            <span className="text-sm font-bold text-accent-light">A</span>
+            <span className="text-sm font-bold text-accent-light"> <img src="/logo.png" alt="Abhigya AI Lab" className="h-9 w-9 rounded-lg object-contain" /></span>
           </div>
           <span className="text-lg font-bold tracking-tight text-text-primary">
             Abhigya <span className="text-accent-light">AI Lab</span>

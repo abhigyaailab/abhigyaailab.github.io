@@ -190,7 +190,7 @@ export const blogPosts = [
       'Why traditional monitoring dashboards fail to capture the nuanced failures of AI systems in production — and what to measure instead.',
     date: 'March 15, 2026',
     readTime: '8 min read',
-    href: '#',
+    href: 'https://github.com/abhigyaailab/blogs/blob/main/The%20Dashboard%20Said%20Everything%20Was%20Fine',
   },
   {
     id: 2,

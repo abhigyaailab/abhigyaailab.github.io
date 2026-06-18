@@ -214,5 +214,6 @@ export const blogPosts = [
 
 export const contactInfo = {
   email: 'abhigyaailab@gmail.com',
+  phone: '+91-9036467807',
   linkedin: 'https://www.linkedin.com/in/shuchismitasahu/',
 }

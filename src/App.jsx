@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Training from './components/Training'
+import CourseSyllabus from './components/CourseSyllabus'
 import Consulting from './components/Consulting'
 import CaseStudies from './components/CaseStudies'
 import About from './components/About'
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <Training />
+        <CourseSyllabus />
         <Consulting />
         <CaseStudies />
         <About />

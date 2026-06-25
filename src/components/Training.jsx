@@ -24,10 +24,20 @@ function CourseCard({ course }) {
         ))}
       </ul>
 
-      <div className="mt-6 border-t border-border/50 pt-4">
+      <div className="mt-6 flex flex-col gap-3 border-t border-border/50 pt-4">
+        {course.syllabusHref && course.syllabusHref !== '#' && (
+          <a
+            href={course.syllabusHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-accent-light transition-colors hover:text-accent"
+          >
+            View syllabus &rarr;
+          </a>
+        )}
         <a
           href="#contact"
-          className="text-sm font-medium text-accent-light transition-colors hover:text-accent"
+          className="text-sm font-medium text-text-secondary transition-colors hover:text-accent-light"
         >
           Enquire about this program &rarr;
         </a>

@@ -1,6 +1,7 @@
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'Training', href: '#training' },
+  { label: 'Syllabus', href: '#course-syllabus' },
   { label: 'Consulting', href: '#consulting' },
   { label: 'Case Studies', href: '#case-studies' },
   { label: 'Blog', href: '#blog' },
@@ -21,12 +22,14 @@ export const trainingPrograms = [
       'Deployment',
     ],
     icon: 'agent',
+    syllabusHref: 'https://github.com/abhigyaailab/Paid-Courses/blob/main/AI%20Agents/readme.md',
   },
   {
     id: 2,
     title: 'Knowledge Graph Engineering',
     topics: ['RDF', 'OWL', 'Neo4j', 'Ontology Design', 'GraphRAG'],
     icon: 'graph',
+    syllabusHref: '#',
   },
   {
     id: 3,
@@ -39,6 +42,7 @@ export const trainingPrograms = [
       'Production Deployment',
     ],
     icon: 'rag',
+    syllabusHref: 'https://github.com/abhigyaailab/Paid-Courses/blob/main/RAG/readme.md',
   },
   {
     id: 4,
@@ -50,6 +54,7 @@ export const trainingPrograms = [
       'Neo4j Integration',
     ],
     icon: 'health',
+    syllabusHref: '#',
   },
   {
     id: 5,
@@ -62,6 +67,7 @@ export const trainingPrograms = [
       'Advanced Python',
     ],
     icon: 'python',
+    syllabusHref: 'https://github.com/abhigyaailab/Paid-Courses/blob/main/Python%20for%20Begginers/readme.md',
   },
   {
     id: 6,
@@ -74,6 +80,7 @@ export const trainingPrograms = [
       'Go-to-Market',
     ],
     icon: 'product',
+    syllabusHref: '#',
   },
   {
     id: 7,
@@ -86,6 +93,7 @@ export const trainingPrograms = [
       'Production Best Practices',
     ],
     icon: 'sdlc',
+    syllabusHref: '#',
   },
   {
     id: 8,
@@ -98,8 +106,12 @@ export const trainingPrograms = [
       'Model Deployment',
     ],
     icon: 'data',
+    syllabusHref: 'https://github.com/abhigyaailab/Paid-Courses/blob/main/Data%20Science%20for%20Beginners/readme.md',
   },
 ]
+
+/** GitHub repo/folder for all course syllabi — update "View All Syllabi" button link */
+export const syllabusRepoUrl = 'https://github.com/abhigyaailab'
 
 export const consultingServices = [
   {
@@ -154,17 +166,17 @@ export const caseStudies = [
     id: 2,
     title: 'Enterprise Knowledge Graph Framework',
     challenge:
-      'A large enterprise needed to unify siloed knowledge across departments, with no centralized way to discover relationships between products, customers, and internal expertise.',
+      'Enterprise AI systems often struggle with fragmented data, inconsistent terminology, and disconnected knowledge sources, leading to poor reasoning and unreliable AI responses. Traditional RAG systems also lack the ability to understand complex business relationships.',
     solution:
-      'Architected an enterprise knowledge graph framework with custom ontology design, Neo4j graph database, and GraphRAG-powered intelligent retrieval for enterprise search and decision support.',
+      'Designed an ontology-driven knowledge graph framework that unifies enterprise knowledge using semantic models, graph relationships, and hybrid retrieval. The framework provides a reusable foundation for context-aware reasoning, explainability, and multi-agent collaboration across domains.',
     outcome:
-      'Unified 12 disparate data sources into a single knowledge graph, improved enterprise search relevance by 78%, and accelerated onboarding of new analysts by 40%.',
+      'Established a scalable semantic foundation that improves AI reasoning, context retention, and enterprise knowledge reuse. The architecture can be adapted across multiple business domains while maintaining governance and explainability.',
   },
   {
     id: 3,
     title: 'FinOps AI Assistant',
     challenge:
-      'Cloud infrastructure costs were escalating without clear visibility into spending patterns, with finance teams spending hours manually analyzing billing data across multiple cloud providers.',
+      'Modern enterprises generate massive multi-cloud billing data that is difficult to analyze using traditional dashboards or SQL, especially when business users need conversational insights. Mapping business terminology to complex cloud billing schemas while maintaining accuracy and explainability is a significant challenge.',
     solution:
       'Built an AI-powered FinOps assistant using agentic AI architecture with LangGraph orchestration, automated cost anomaly detection, and natural language querying of cloud billing data.',
     outcome:
@@ -199,7 +211,7 @@ export const blogPosts = [
       'A deep dive into how data quality issues silently undermine agentic AI systems, and practical strategies for building data-aware agents.',
     date: 'February 28, 2026',
     readTime: '10 min read',
-    href: '#',
+    href: 'https://github.com/abhigyaailab/blogs/blob/main/The%20Agent%20Was%20Working%20Fine.%20The%20Data%20Was%20Not_',
   },
   {
     id: 3,
@@ -208,7 +220,7 @@ export const blogPosts = [
       'The gap between evaluation metrics and real-world performance — why high benchmark scores don\'t guarantee production reliability.',
     date: 'February 10, 2026',
     readTime: '7 min read',
-    href: '#',
+    href: 'https://github.com/abhigyaailab/blogs/blob/main/AI%20Agent%20Scores%2087%20Percent%20and%20Still%20Gets%20It%20Wrong%20(1).txt',
   },
 ]
 
